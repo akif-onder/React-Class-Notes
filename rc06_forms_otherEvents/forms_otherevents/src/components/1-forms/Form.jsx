@@ -10,6 +10,7 @@ const Form = () => {
   };
 
 const handleSubmit = () => {
+    // e.prevent.default();
     alert(` username:${username}
     email:${email}
     password:${password}`       
